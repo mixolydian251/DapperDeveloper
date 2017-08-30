@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="custom.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Saira+Semi+Condensed|Lobster+Two" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300" rel="stylesheet">
+
+    <title>The Dapper Developer</title>
+</head>
+<body>
+<div>
+    <div class="container-fluid text-center" style="padding: 0" >
+        <div class="row background text-center">
+            <div class="col-12">
+                <h1 id="header" class="headerfont text-center">
+                    <b>The Dapper Developer</b>
+                </h1>
+                <h2 id="tagline" class="text-center hidden">
+                    An Interactive Experience
+                </h2>
+            </div>
+        </div>
+        <div id="card2">
+            <div class="row textbackground">
+                <div class="col-12">
+                    <p id="hello" class="hidden" >
+                        Hello, I'm Jordan.<br/>
+                        Welcome to my website!<br/>
+                        <div id="hint" style="font-size: 11px; margin-top: 20px;" class="hidden"><sup>*</sup>Click images for more info</div>
+                    </p>
+                </div>
+            </div>
+            <div id="section2" class="row textbackground text-center">
+                <div class="col-md-4 text-center" style="padding-top: 20px">
+                    <a href="#student"><img  id="student" class="imgsize img-fluid" style="opacity: 0" src="math.jpg" alt="student"></a>
+                    <p id="studenttext" class="subtext" >Student by Day</p>
+                    <div id="sbox1" class="shadowbox text-center">
+                        <p><b>Education</b></p>
+                        <ul class="text-center">
+                            Salem High School<br/><br/>
+                            Wake Tech Community College<br/>
+                            -Associates Engineering<br/><br/>
+                            <strong>Pursuing:</strong><br/>
+                            N.C. State University<br/>
+                            - B.S. Computer Science
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" style="padding-top: 20px">
+                    <a href="#dev"><img id="dev" class="imgsize img-fluid" style="opacity: 0" src="coder.jpeg" alt="web design"></a>
+                    <p id="devtext" class="subtext" >Evening Web Developer</p>
+                    <div id="sbox2" class="shadowbox text-center">
+                        <p><b>Programming Skills</b></p>
+                        <ul class="text-center">
+                            <strong>Proficient:</strong><br/>
+                            HTML<br/>
+                            CSS<br/>
+                            Javascript<br/>
+                            Python<br/>
+                            Photoshop<br/><br/>
+
+                            <strong>Experience in:</strong><br/>
+                            C++<br/>
+                            Excel<br/>
+                            Node.js<br/>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" style="padding-top: 20px">
+                    <a href="#rockstar"><img id="rockstar" class="imgsize img-fluid" style="opacity: 0" src="rockstar.jpg" alt="rockstar"></a>
+                    <p id="rockstartext" class="subtext">Rockstar by Night</p>
+                    <div id="sbox3" class="shadowbox">
+                        <p><b>Music Skills</b></p>
+                        <ul class="text-center">
+                            Guitar<br/>
+                            Bass<br/>
+                            Vocals<br/>
+                            Music Production<br/>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactbox" style="text-shadow: 1px 1px 5px rgba(61, 49, 47, 1);color: white ;padding-top: 85px">
+
+        <form class="text-center" action="https://formspree.io/tjhmusic11@gmail.com"
+              method="POST">
+                <legend>Contact</legend>
+                    <label>Name:<br/><input placeholder="Name" class="textboxinfo" name="name"></label><br/>
+                    <label>Email Address:<br/><input placeholder="Email" class="textboxinfo" type="email" name="_replyto"></label>
+            <br/><br/>
+
+            <label>Message:<br/>
+                <textarea placeholder="Enter your message..." class="textboxmessage" name="message" cols="35" rows="5"></textarea>
+            </label><br/>
+            <input style="width: 100px; text-align: center" class="textboxmessage" type="submit" value="Send"><br/>
+        </form>
+
+
+    </div>
+    <div id="footer" class="row text-center">
+
+    </div>
+    <div id="navbar" class="row text-center">
+        <div id="home" class="navelement col-3"><a class="navtext" href="#">Home</a></div>
+        <div id="about" class="navelement col-3" style="padding-left: 0"><a class="navtext" href="#hello">About</a></div>
+        <div id="projects" class="navelement col-3" style="padding-left: 0"><a class="navtext" href="#">Projects</a></div>
+        <div id="contact" class="navelement col-3" style="padding-left: 0"><a class="navtext" href="#contactbox">Contact</a></div>
+    </div>
+</div>
+
+<!-- Javascript -->
+<script src="script.js" rel="script" type="text/javascript"></script>
+</body>
+</html>
