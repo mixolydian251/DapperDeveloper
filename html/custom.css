@@ -27,7 +27,7 @@ html{
 #navbar{
     position: fixed;
     top: 0;
-    background-color: #476d47;
+    background-color: rgb(69, 120, 150);
     opacity: 0.85;
     width: 100%;
     min-height: 55px;
@@ -36,7 +36,7 @@ html{
     -webkit-box-shadow: 0 0 15px grey;
     box-shadow: 0 0 15px #111111 ;
     border: solid;
-    border-color: #476d47 ;
+    border-color: rgb(69, 120, 150) ;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
@@ -44,7 +44,7 @@ html{
 
 #contactbox{
     position: static;
-    background-color: rgba(149, 133, 123, 0.59);
+    background-color: rgba(167, 133, 59, 0.12);
     opacity: 0.9;
     width: 100%;
     min-height: 500px;
@@ -53,7 +53,7 @@ html{
 }
 
 #footer{
-    background-color: #476d47;
+    background-color: rgb(69, 120, 150);
     position: static;
     opacity: 0.9;
     width: 100%;
@@ -63,7 +63,7 @@ html{
     -webkit-box-shadow: 0 0 25px grey;
     box-shadow: 0 0 25px #111111 ;
     border: solid;
-    border-color: #476d47 ;
+    border-color: rgb(69, 120, 150) ;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -100,6 +100,8 @@ html{
 
 #hint{
     padding-top: 80px;
+    font-size: 12px;
+    margin-top: 20px;
 
 }
 
@@ -137,7 +139,7 @@ a:hover {
 
 
 .background{
-    background-image: url(eno_bridge.jpg);
+    background-image: url(stardust.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: 0;
@@ -187,7 +189,7 @@ a:hover {
 
 .shadowbox{
     max-height: 0;
-    background-color: lightgrey;
+    background-color: rgba(176, 182, 187, 0.37);
     opacity: 0.9;
     border-radius: 5px;
     margin: auto ;
@@ -262,7 +264,7 @@ a:hover {
 .textboxinfo{
     width: 300px;
     text-align: center;
-    background-color: #fdfdfd;
+    background-color: #fff;
     opacity: 1;
     margin: auto ;
     border-radius: 5px;
@@ -273,7 +275,7 @@ a:hover {
 
 .textboxmessage{
     text-align: left;
-    background-color: #fdfdfd;
+    background-color: #fff;
     opacity: 0.8;
     margin: auto ;
     border-radius: 10px;
@@ -281,4 +283,13 @@ a:hover {
     -webkit-box-shadow:  0 0 10px rgba(61, 49, 47, 1);
     box-shadow:  0 0 10px rgba(61, 49, 47, 1);
 
+}
+
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgb(245, 245, 245);
+    text-shadow: 0 1px 1px rgba(17, 17, 17, 0.84);
+    font-size: smaller;
 }
