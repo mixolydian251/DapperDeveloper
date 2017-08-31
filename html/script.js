@@ -248,9 +248,17 @@ function navhovering(element1, element2, element3, element4){
 
 function mobilefixes(){
     var title = document.getElementById('header');
+    var info = document.querySelectorAll('.textboxinfo');
+    var box = document.querySelector('textarea');
+    var hint = document.querySelector('#hint');
 
     if(window.screen.width < 425){
-        title.style.paddingTop = "70px"
+        title.style.paddingTop = "70px";
+        box.cols = "35";
+        info.forEach(function (info) {
+            info.style.width = "200px"
+        });
+        hint.innerHTML = "<sup>*</sup>Tap images for more info";
     }
 }
 
