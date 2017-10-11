@@ -111,7 +111,7 @@ html{
 .reveal {
     -webkit-transform: translate(0);
     opacity: 1 !important;
-    transition: opacity 3s, transform 2s;
+    transition: opacity 0.9s, transform 0.7s;
 }
 
 ul{
@@ -201,7 +201,7 @@ a:hover {
 
 .hovered{
     -webkit-transform: scale(1.05);
-    -webkit-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.15s ease-out;
     -moz-box-shadow: 0 10px 30px grey;
     -webkit-box-shadow: 0 10px 30px grey;
     box-shadow: 0 10px 30px #111111 ;
@@ -209,13 +209,13 @@ a:hover {
 
 .nothovered{
     -webkit-transform: scale(0.95);
-    -webkit-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.25s ease-out;
 
 }
 
 .hoverreturn{
     -webkit-transform: scale(1);
-    -webkit-transition: all 1.5s ease-out;
+    -webkit-transition: all 0.25s ease-out;
     -moz-box-shadow: 0 0 10px grey;
     -webkit-box-shadow: 0 0 10px grey;
     box-shadow: 0 0 10px black ;
@@ -223,9 +223,7 @@ a:hover {
 
 .hoverclickon{
     -webkit-transform: scale(1.05);
-    -webkit-transition: all 0.03s;
-
-
+    -webkit-transition: all 0.025s;
 }
 
 .hoverclickoff{
@@ -241,13 +239,13 @@ a:hover {
 
 .shadowboxclickon{
     max-height: 400px;
-    transition: max-height 1.25s ease-out;
+    transition: max-height 0.25s ease-out;
 }
 
 .navhover{
     font-size: 110%;
     padding-top: 9px;
-    transition: font-size 0.2s ease-out;
+    transition: font-size 0.08s ease-out;
     text-shadow:1px 1px 15px #000000;
 }
 
@@ -255,7 +253,7 @@ a:hover {
     font-size: 100%;
     padding-bottom: 0;
     padding-right: 0;
-    transition: font-size 0.2s ease-out;
+    transition: font-size 0.1s ease-out;
 }
 
 .textboxinfo{
