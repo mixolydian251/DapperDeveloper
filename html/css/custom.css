@@ -41,10 +41,36 @@ html{
     background-color: rgba(167, 133, 59, 0.12);
     opacity: 0.9;
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     margin: 0;
     border-color: rgba(84, 72, 67, 0.59) ;
 }
+
+#apps{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;;
+}
+
+#projectbox{
+    background-color: rgba(69, 120, 150, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100vw;
+    height: 600px;
+    margin: 0;
+    -moz-box-shadow: 0 0 25px grey;
+    -webkit-box-shadow: 0 0 25px grey;
+    box-shadow: 0 0 25px black ;
+}
+
+
+
 #footer{
     background-color: rgb(69, 120, 150);
     position: static;
@@ -124,6 +150,13 @@ p {
 a:hover {
     color: white !important;
     text-decoration: none !important;
+}
+
+figure{
+    text-align: center;
+}
+figcaption{
+    padding-top: 10px;
 }
 
 
@@ -266,6 +299,10 @@ a:hover {
     box-shadow:  0 0 10px rgba(61, 49, 47, 1);
 
 }
+.projectIcon{
+    border-radius: 25px;
+}
+
 .copyright{
     display: flex;
     align-items: flex-end;

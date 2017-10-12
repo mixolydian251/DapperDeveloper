@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300" rel="stylesheet">
 
     <title>The Dapper Developer</title>
+    <script src="../../../../Downloads/optimized_contents/js/script.js"></script>
 </head>
 <body>
 <div>
@@ -50,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-center" style="padding-top: 20px">
-                    <a href="#dev"><img id="dev" class="imgsize img-fluid" style="opacity: 0" src="img/coder.jpeg" alt="web design"></a>
+                    <a href="#dev"><img id="dev" class="imgsize img-fluid" style="opacity: 0" src="img/coder.jpg" alt="web design"></a>
                     <p id="devtext" class="subtext" >Evening Web Developer</p>
                     <div id="sbox2" class="shadowbox text-center">
                         <p><b>Programming Skills</b></p>
@@ -85,8 +86,22 @@
             </div>
         </div>
     </div>
-    <div id="contactbox" style="text-shadow: 1px 1px 5px rgba(61, 49, 47, 1);color: white ;padding-top: 85px">
 
+    <div id="projectbox">
+        <h2>Projects</h2>
+        <div id="apps">
+            <figure>
+                <a href="http://thedapperdeveloper.com/chases_trash_adventure/html/chases_trash_adventure.html"><img class="projectIcon" src="./img/chase.png" alt="Chase's Trash Adventure"></a>
+                <figcaption> Chase's Trash Adventure </figcaption>
+            </figure>
+            <figure>
+                <a href="http://thedapperdeveloper.com/runningApp/views/run_app.html"><img class="projectIcon" src="./img/run_icon.png" alt="Run App"></a>
+                <figcaption> The Run App </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="contactbox" style="text-shadow: 1px 1px 5px rgba(61, 49, 47, 1);color: white ;padding-top: 85px">
         <form class="text-center" action="https://formspree.io/tjhmusic11@gmail.com"
               method="POST">
                 <legend>Contact</legend>
@@ -110,12 +125,12 @@
     <div id="navbar" class="row text-center">
         <a id="home" class="navelement col-3" href="#"><div class="navtext">Home</div></a>
         <a id="about" class="navelement col-3" style="padding-left: 0" href="#hello"><div class="navtext" >About</div></a>
-        <a id="projects" class="navelement col-3" style="padding-left: 0" href="http://thedapperdeveloper.com/chases_trash_adventure/html/chases_trash_adventure.html"><div class="navtext">Projects</div></a>
+        <a id="projects" class="navelement col-3" style="padding-left: 0" href="#projectbox"><div class="navtext">Projects</div></a>
         <a id="contact" class="navelement col-3" style="padding-left: 0" href="#contactbox"><div class="navtext">Contact</div></a>
     </div>
 </div>
 
 <!-- Javascript -->
-<script src="js/script.js" rel="script" type="text/javascript"></script>
+<script src="js/script_min.js" rel="script" type="text/javascript"></script>
 </body>
 </html>
